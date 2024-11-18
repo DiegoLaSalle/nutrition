@@ -6,7 +6,7 @@ import sys
 
 def main():
     """Run administrative tasks."""
-    settings_module = 'Viltrum.production' if 'WEBSITE_HOSTNAME' in os.environ else 'Viltrum.settings'
+    settings_module = 'nutrition_Library.production' if 'WEBSITE_HOSTNAME' in os.environ else 'nutrition_Library.settings'
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', settings_module)
     try:
         from django.core.management import execute_from_command_line
