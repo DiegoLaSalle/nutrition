@@ -11,6 +11,8 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'nutrition_Library.settings')
+
+settings_module = 'nutrition_Library.production' if 'WEBSITE_HOSTNAME' in os.environ else 'nutrition_Library.settings'
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', settings_module)
 
 application = get_wsgi_application()
