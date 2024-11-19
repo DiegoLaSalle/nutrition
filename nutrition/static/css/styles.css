@@ -6,8 +6,8 @@
 }
 
 :root {
-  --color-bg1: rgb(255, 94, 77); /* Rojo cálido para el inicio del gradiente */
-  --color-bg2: rgb(0, 17, 82); /* Naranja brillante para el fin del gradiente */
+  --color-bg1: rgb(79, 188, 62); /* Rojo cálido para el inicio del gradiente */
+  --color-bg2: rgb(2, 117, 249); /* Naranja brillante para el fin del gradiente */
   --color1: 255, 163, 67; /* Naranja para g1 */
   --color2: 255, 209, 102; /* Amarillo para g2 */
   --color3: 135, 60, 190; /* Púrpura para g3 */
